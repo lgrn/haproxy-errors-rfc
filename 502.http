@@ -1,0 +1,60 @@
+HTTP/1.0 502 Bad Gateway
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>502 Bad Gateway</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+        background-color: #ffe7e7ff;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .error-card {
+        background: #fff;
+        padding: 2rem 3rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+      }
+      h1 {
+        margin: 0 0 1rem;
+        font-size: 1.5rem;
+        color: #d9534f;
+      }
+      p {
+        width: 100%;
+        margin: none;
+        background: rgba(255, 255, 255, 0.8);
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #444;
+        letter-spacing: 0.025em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-card">
+      <h1>502 Bad Gateway</h1>
+      <p>
+The 502 (Bad Gateway) status code indicates that the server, while
+acting as a gateway or proxy, received an invalid response from an
+inbound server it accessed while attempting to fulfill the request.
+      </p>
+    </div>
+  </body>
+</html>
